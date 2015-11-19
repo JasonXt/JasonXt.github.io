@@ -4,7 +4,7 @@
   <title><![CDATA[徐涛的技术博客]]></title>
   <link href="http://jasonxt.github.io/atom.xml" rel="self"/>
   <link href="http://jasonxt.github.io/"/>
-  <updated>2015-11-19T16:28:06+08:00</updated>
+  <updated>2015-11-19T17:58:44+08:00</updated>
   <id>http://jasonxt.github.io/</id>
   <author>
     <name><![CDATA[徐涛]]></name>
@@ -14,11 +14,21 @@
 
   
   <entry>
-    <title type="html"><![CDATA[PHPSTORM&amp;&amp;WEBSTORM解决Case-Sensitivity]]></title>
+    <title type="html"><![CDATA[MAC下解决PHPSTORM的Case-Sensitivity]]></title>
     <link href="http://jasonxt.github.io/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity/"/>
     <updated>2015-11-16T17:35:38+08:00</updated>
     <id>http://jasonxt.github.io/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity</id>
-    <content type="html"><![CDATA[<h1>Test</h1>
+    <content type="html"><![CDATA[<p>由于最近重装了MAC的系统,在安装时选择了区分大小写的存储格式,在打开idea 这类的IDE的时候会出现警告.这里提供一个解决的方法：</p>
+
+<p>以PHPSOTRM为例：</p>
+
+<ul>
+<li>Finder 中打开应用程序,找到PHPSTORM，右击显示包内容，找到
+<code>Contents/bin/idea.properties</code>文件，用编辑器打开；</li>
+<li>在最后加上<code>idea.case.sensitive.fs=true</code>,然后保存。
+重启PHPSTORM，警告就消失了。</li>
+</ul>
+
 ]]></content>
   </entry>
   

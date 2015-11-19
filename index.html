@@ -9,8 +9,8 @@
   <meta name="author" content="徐涛">
 
   
-  <meta name="description" content="Test
-">
+  <meta name="description" content="由于最近重装了MAC的系统,在安装时选择了区分大小写的存储格式,在打开idea 这类的IDE的时候会出现警告.这里提供一个解决的方法： 以PHPSOTRM为例： Finder 中打开应用程序,找到PHPSTORM，右击显示包内容，找到
+Contents/bin/idea.properties文件， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,7 +72,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity/">PHPSTORM&amp;&amp;WEBSTORM解决Case-Sensitivity</a></h1>
+      <h1 class="entry-title"><a href="/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity/">MAC下解决PHPSTORM的Case-Sensitivity</a></h1>
     
     
       <p class="meta">
@@ -88,7 +88,17 @@
   </header>
 
 
-  <div class="entry-content"><h1>Test</h1>
+  <div class="entry-content"><p>由于最近重装了MAC的系统,在安装时选择了区分大小写的存储格式,在打开idea 这类的IDE的时候会出现警告.这里提供一个解决的方法：</p>
+
+<p>以PHPSOTRM为例：</p>
+
+<ul>
+<li>Finder 中打开应用程序,找到PHPSTORM，右击显示包内容，找到
+<code>Contents/bin/idea.properties</code>文件，用编辑器打开；</li>
+<li>在最后加上<code>idea.case.sensitive.fs=true</code>,然后保存。
+重启PHPSTORM，警告就消失了。</li>
+</ul>
+
 </div>
   
   
@@ -109,7 +119,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity/">PHPSTORM&amp;&amp;WEBSTORM解决Case-Sensitivity</a>
+        <a href="/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity/">MAC下解决PHPSTORM的Case-Sensitivity</a>
       </li>
     
   </ul>
