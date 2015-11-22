@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Php | 徐涛的技术博客]]></title>
   <link href="http://jasonxt.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://jasonxt.github.io/"/>
-  <updated>2015-11-22T15:50:29+08:00</updated>
+  <updated>2015-11-22T23:32:36+08:00</updated>
   <id>http://jasonxt.github.io/</id>
   <author>
     <name><![CDATA[徐涛]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHPSTORM ACTIVATION]]></title>
+    <link href="http://jasonxt.github.io/blog/2015/11/22/phpstorm-activation/"/>
+    <updated>2015-11-22T23:20:00+08:00</updated>
+    <id>http://jasonxt.github.io/blog/2015/11/22/phpstorm-activation</id>
+    <content type="html"><![CDATA[<p>最近新出了PHPSTORM10，于是把自己机器上的升级了下。这家伙收费的，国人嘛。。。你懂的。</p>
+
+<p>安装后，发现不能用原来的keygen注册激活了，于是Google了一下，下面是解决方案：</p>
+
+<p>安装好打开的时候，弹出注册界面 License Activation 选择第二个选项
+License Server,在address里面填下面的url</p>
+
+<p><code>http://idea.lanyus.com/</code></p>
+
+<p>然后点击OK 就行啦</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MAC下解决PHPSTORM的Case-Sensitivity]]></title>
