@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PHPSTORM ACTIVATION"
+title: "PHPSTORM ACTIVATION 注册激活"
 date: 2015-11-22 23:20:00 +0800
 comments: true
 categories: PHP
