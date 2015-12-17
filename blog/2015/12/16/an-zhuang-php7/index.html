@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>PHPSTORM ACTIVATION 注册激活 - 徐涛的技术博客</title>
+  <title>在ubuntu上安装PHP7.0 - 徐涛的技术博客</title>
   <meta name="author" content="徐涛">
 
   
-  <meta name="description" content="最近新出了PHPSTORM10，于是把自己机器上的升级了下。这家伙收费的，国人嘛。。。你懂的。 安装后，发现不能用原来的keygen注册激活了，于是Google了一下，下面是解决方案： 安装好打开的时候，弹出注册界面 License Activation 选择第二个选项
-License &hellip;">
+  <meta name="description" content="PHP7.0 发布啦! 等了几天,今天来尝尝鲜,哈哈! 这玩意据说比HHVM还快了啊.下面我们就来装个体验下. 卸载PHP5 sudo apt-get remove php5* &amp;&amp; apt-get purge php5-fpm &amp;&amp; apt-get --purge &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ License &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jasonxt.github.io/blog/2015/11/22/phpstorm-activation/">
+  <link rel="canonical" href="http://jasonxt.github.io/blog/2015/12/16/an-zhuang-php7/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="徐涛的技术博客" type="application/atom+xml">
@@ -70,7 +69,7 @@ License &hellip;">
   
   <header>
     
-      <h1 class="entry-title">PHPSTORM ACTIVATION 注册激活</h1>
+      <h1 class="entry-title">在ubuntu上安装PHP7.0</h1>
     
     
       <p class="meta">
@@ -79,23 +78,36 @@ License &hellip;">
 
 
 
-<time class='entry-date' datetime='2015-11-22T23:20:00+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>11:20 pm</span></time>
+<time class='entry-date' datetime='2015-12-16T21:45:01+08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:45 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>最近新出了PHPSTORM10，于是把自己机器上的升级了下。这家伙收费的，国人嘛。。。你懂的。</p>
+<div class="entry-content"><p>PHP7.0 发布啦! 等了几天,今天来尝尝鲜,哈哈!</p>
 
-<p>安装后，发现不能用原来的keygen注册激活了，于是Google了一下，下面是解决方案：</p>
+<p>这玩意据说比HHVM还快了啊.下面我们就来装个体验下.</p>
 
-<p>安装好打开的时候，弹出注册界面 License Activation 选择第二个选项
-License Server,在address里面填下面的url</p>
+<p>卸载PHP5</p>
 
-<p><code>http://idea.lanyus.com/</code></p>
+<p><code>sudo apt-get remove php5* &amp;&amp; apt-get purge php5-fpm &amp;&amp; apt-get --purge autoremove &amp;&amp;</code></p>
 
-<p>然后点击OK 就行啦</p>
+<p>添加 PHP7的PPA源</p>
+
+<p><code>sudo add-apt-repository ppa:ondrej/php-7.0</code></p>
+
+<p>安装
+<code>apt-get update &amp;&amp; apt-get install php7.0-fpm php7.0-mysql</code></p>
+
+<p>如果你安装的是Apache 这样</p>
+
+<p><code>apt-get install libapache2-mod-php7.0</code>
+<code>a2enmod php7.0</code>
+<code>service apache2 restart</code></p>
+
+<p>好了,大工告成.当然,还可以做一些优化:
+<a href="http://www.laruence.com/2015/12/04/3086.html" title="让PHP7达到最高性能的几个Tips">鸟叔大神的帖子</a>  让PHP7达到最高性能的几个Tips.</p>
 </div>
 
 
@@ -111,7 +123,7 @@ License Server,在address里面填下面的url</p>
 
 
 
-<time class='entry-date' datetime='2015-11-22T23:20:00+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>11:20 pm</span></time>
+<time class='entry-date' datetime='2015-12-16T21:45:01+08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>16</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:45 pm</span></time>
       
 
 <span class="categories">
@@ -132,10 +144,8 @@ License Server,在address里面填下面的url</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2015/11/16/phpstorm-and-and-webstormjie-jue-case-sensitivity/" title="Previous Post: MAC下解决PHPSTORM的Case-Sensitivity">&laquo; MAC下解决PHPSTORM的Case-Sensitivity</a>
+        <a class="basic-alignment left" href="/blog/2015/11/22/phpstorm-activation/" title="Previous Post: PHPSTORM ACTIVATION 注册激活">&laquo; PHPSTORM ACTIVATION 注册激活</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/12/16/an-zhuang-php7/" title="Next Post: 在ubuntu上安装PHP7.0">在ubuntu上安装PHP7.0 &raquo;</a>
       
     </p>
   </footer>

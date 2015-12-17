@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Php | 徐涛的技术博客]]></title>
   <link href="http://jasonxt.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://jasonxt.github.io/"/>
-  <updated>2015-11-22T23:32:36+08:00</updated>
+  <updated>2015-12-17T09:14:22+08:00</updated>
   <id>http://jasonxt.github.io/</id>
   <author>
     <name><![CDATA[徐涛]]></name>
@@ -14,7 +14,38 @@
 
   
   <entry>
-    <title type="html"><![CDATA[PHPSTORM ACTIVATION]]></title>
+    <title type="html"><![CDATA[在ubuntu上安装PHP7.0]]></title>
+    <link href="http://jasonxt.github.io/blog/2015/12/16/an-zhuang-php7/"/>
+    <updated>2015-12-16T21:45:01+08:00</updated>
+    <id>http://jasonxt.github.io/blog/2015/12/16/an-zhuang-php7</id>
+    <content type="html"><![CDATA[<p>PHP7.0 发布啦! 等了几天,今天来尝尝鲜,哈哈!</p>
+
+<p>这玩意据说比HHVM还快了啊.下面我们就来装个体验下.</p>
+
+<p>卸载PHP5</p>
+
+<p><code>sudo apt-get remove php5* &amp;&amp; apt-get purge php5-fpm &amp;&amp; apt-get --purge autoremove &amp;&amp;</code></p>
+
+<p>添加 PHP7的PPA源</p>
+
+<p><code>sudo add-apt-repository ppa:ondrej/php-7.0</code></p>
+
+<p>安装
+<code>apt-get update &amp;&amp; apt-get install php7.0-fpm php7.0-mysql</code></p>
+
+<p>如果你安装的是Apache 这样</p>
+
+<p><code>apt-get install libapache2-mod-php7.0</code>
+<code>a2enmod php7.0</code>
+<code>service apache2 restart</code></p>
+
+<p>好了,大工告成.当然,还可以做一些优化:
+<a href="http://www.laruence.com/2015/12/04/3086.html" title="让PHP7达到最高性能的几个Tips">鸟叔大神的帖子</a>  让PHP7达到最高性能的几个Tips.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHPSTORM ACTIVATION 注册激活]]></title>
     <link href="http://jasonxt.github.io/blog/2015/11/22/phpstorm-activation/"/>
     <updated>2015-11-22T23:20:00+08:00</updated>
     <id>http://jasonxt.github.io/blog/2015/11/22/phpstorm-activation</id>
