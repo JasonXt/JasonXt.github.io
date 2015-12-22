@@ -17,6 +17,7 @@ PHP7.0 发布啦! 等了几天,今天来尝尝鲜,哈哈!
 
 添加 PHP7的PPA源
 
+`apt-get install python-software-properties software-properties-common`
 `sudo add-apt-repository ppa:ondrej/php-7.0`
 
 安装
