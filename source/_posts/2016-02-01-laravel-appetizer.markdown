@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Laravel appetizer"
+title: "Laravel开胃菜 | Laravel appetizer"
 date: 2016-02-01 16:03:56 +0800
 comments: true
 categories: PHP
 ---
 
-Laravel开胃菜
-==========================
 #### 教程手册
 
 1. [laravel-5-fundamentals](https://laracasts.com/series/laravel-5-fundamentals)
