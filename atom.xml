@@ -4,7 +4,7 @@
   <title><![CDATA[徐涛的技术博客]]></title>
   <link href="http://jasonxt.github.io/atom.xml" rel="self"/>
   <link href="http://jasonxt.github.io/"/>
-  <updated>2016-02-01T16:06:50+08:00</updated>
+  <updated>2016-02-01T16:07:57+08:00</updated>
   <id>http://jasonxt.github.io/</id>
   <author>
     <name><![CDATA[徐涛]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Laravel Appetizer]]></title>
+    <title type="html"><![CDATA[Laravel开胃菜 | Laravel Appetizer]]></title>
     <link href="http://jasonxt.github.io/blog/2016/02/01/laravel-appetizer/"/>
     <updated>2016-02-01T16:03:56+08:00</updated>
     <id>http://jasonxt.github.io/blog/2016/02/01/laravel-appetizer</id>
-    <content type="html"><![CDATA[<h1>Laravel开胃菜</h1>
-
-<h4>教程手册</h4>
+    <content type="html"><![CDATA[<h4>教程手册</h4>
 
 <ol>
 <li><a href="https://laracasts.com/series/laravel-5-fundamentals">laravel-5-fundamentals</a></li>
